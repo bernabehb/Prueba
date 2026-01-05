@@ -8,7 +8,6 @@ import Perfil from '../app/Administration/Perfil/pages/Perfil';
 import Productos from '../app/Administration/Productos/pages/Productos';
 import NotFound from '../components/layout/error/NotFound';
 
-
 const AppRoutes = () => {
   return (
     <BrowserRouter>
