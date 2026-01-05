@@ -21,14 +21,12 @@ const AppRoutes = () => {
           <Route path="clientes" element={<Clientes />} />
           <Route path="perfil" element={<Perfil />} />
           <Route path="productos" element={<Productos />} />
-
-    
         </Route>
               <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
-};
+};  
 
 
 export default AppRoutes;
