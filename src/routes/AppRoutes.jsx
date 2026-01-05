@@ -6,6 +6,7 @@ import Dashboard from '../app/Administration/Dashboard/pages/Dashboard';
 import Clientes from '../app/Administration/Clientes/pages/Clientes';
 import Perfil from '../app/Administration/Perfil/pages/Perfil';
 import Productos from '../app/Administration/Productos/pages/Productos';
+import NotFound from '../components/layout/error/NotFound';
 
 
 const AppRoutes = () => {
@@ -21,12 +22,13 @@ const AppRoutes = () => {
           <Route path="perfil" element={<Perfil />} />
           <Route path="productos" element={<Productos />} />
 
+    
         </Route>
-
-        <Route path="*" element={<Navigate to="/login" replace />} />
+              <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
 };
+
 
 export default AppRoutes;

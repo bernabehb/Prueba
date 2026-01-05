@@ -6,9 +6,8 @@ import { LuChartSpline } from "react-icons/lu";
 import { FaUsers, FaUser } from "react-icons/fa";
 import { AiOutlineLogout, AiOutlineProduct } from "react-icons/ai";
 
-const Sidebar = ({ isOpen, toggleSidebar, closeSidebar }) => {
+const Sidebar = ({ isOpen, closeSidebar }) => {
   const navigate = useNavigate();
-  
   const menuItems = [
     { path: '/dashboard', icon: LuChartSpline, label: 'Dashboard' },
     { path: '/clientes', icon: FaUsers, label: 'Clientes' },
