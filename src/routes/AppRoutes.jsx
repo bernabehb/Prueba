@@ -13,7 +13,7 @@ const AppRoutes = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/login" element={<Login />} />
-        
+
         <Route path="/" element={<Layout />}>
           <Route index element={<Navigate to="/dashboard" replace />} />
           <Route path="dashboard" element={<Dashboard />} />
@@ -21,11 +21,11 @@ const AppRoutes = () => {
           <Route path="perfil" element={<Perfil />} />
           <Route path="productos" element={<Productos />} />
         </Route>
-              <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
-};  
+};
 
 
 export default AppRoutes;

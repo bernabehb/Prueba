@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import StatsCard from '../../../../components/form/Statscard';
+import EstadisticasCard from '../../../../components/form/EstadisticasCard';
 import Filtros from '../../../../components/form/Filtros';
 import DataTable from '../../../../components/form/Datatable';
 import SeguimientoCard from '../../../../components/form/SeguimientosCard';
@@ -72,7 +72,7 @@ const Dashboard = () => {
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {estadisticas.map((stat, index) => (
-          <StatsCard key={index} {...stat} />
+          <EstadisticasCard key={index} {...stat} />
         ))}
       </div>
 

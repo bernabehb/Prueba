@@ -19,45 +19,45 @@
   .title-login {
     @apply text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 dark:text-white text-center mb-6 sm:mb-8;
   }
-.nav {
+  .nav {
   @apply w-64 bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-700 fixed inset-y-0 left-0 transition-transform duration-300 ease-in-out z-40 shadow-lg;
-}
+  }
 
-.nav-content {
+  .nav-content {
   @apply h-full flex flex-col;
-}
+  }
 
-.nav-header {
+  .nav-header {
   @apply p-6 border-b border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800/50;
-}
+  }
 
-.nav-logo {
+  .nav-logo {
   @apply h-12 w-auto mx-auto;
-}
+  }
 
-.nav-menu {
+  .nav-menu {
   @apply flex-1 p-4 overflow-y-auto;
-}
+  }
 
-.nav-item {
+  .nav-item {
   @apply flex items-center gap-3 px-4 py-2 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200;
-}
+  }
 
-.nav-item-active { 
+  .nav-item-active { 
     @apply flex items-center px-4 py-2  bg-indigo-50 dark:bg-slate-800 rounded-lg font-semibold text-indigo-500  dark:text-indigo-400  ; 
   }
 
-.nav-item-text {
-  @apply font-medium;
-}
+  .nav-item-text {
+   @apply font-medium;
+  }
 
-.logout-item:hover {
-  @apply bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400;
-}
+  .logout-item:hover {
+   @apply bg-red-50 dark:bg-red-900/30 text-red-600 dark:text-red-400;
+  }
 
-.main-content {
+  .main-content {
   @apply flex-1 lg:ml-64 p-4 sm:p-6 md:p-10 bg-gray-50 dark:bg-gray-950 min-h-screen transition-all duration-300;
-}
+  }
 
   .body-content {
     @apply bg-gray-100 dark:bg-gray-900;

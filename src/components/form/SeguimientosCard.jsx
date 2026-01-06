@@ -8,7 +8,6 @@ const SeguimientoCard = () => {
             Último historial de entregas visto
           </p>
         </div>
-        <span className="text-gray-400 text-xl">⋮</span>
       </div>
 
       <div className="rounded-lg overflow-hidden mb-4">

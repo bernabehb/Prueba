@@ -1,6 +1,6 @@
 import React from "react";
 
-const StatsCard = ({
+const EstadisticasCard = ({
   icon,
   value,
   label,
@@ -10,7 +10,6 @@ const StatsCard = ({
   return (
     <div className="
       flex items-center gap-4 p-5 rounded-xl
-     
       from-white to-gray-100
       dark:from-[#111827] dark:to-[#0b1220]
       shadow-md
@@ -46,9 +45,8 @@ const StatsCard = ({
           {positive ? "+" : "-"}{percent}%
         </span>
       )}
-
     </div>
   );
 };
 
-export default StatsCard;
+export default EstadisticasCard;
